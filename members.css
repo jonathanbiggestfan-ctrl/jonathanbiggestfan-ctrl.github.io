@@ -1,0 +1,21 @@
+.memberTITLE{
+    color: rgb(34, 31, 32);
+    text-align: center;
+    font-size: 65px;
+}
+
+.Reii {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 55px auto;
+}
+
+.Jayce {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    float: right;
+    margin
+}

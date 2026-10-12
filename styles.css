@@ -2,8 +2,8 @@ body {
   background-color: white;
 }
 
-h1 {
-  color: rgb(175, 89, 122);
+.SpecTITLE {
+  color: rgb(167, 78, 112);
   text-align: left;
   font-size: 65px;
   position: absolute;
@@ -25,7 +25,7 @@ img {
     transform: rotate(352deg);
 }
 
-.xaliKILLyourself {
+.xaligg {
     width: 20%;
     height: 50%;
     position: absolute;
@@ -90,3 +90,14 @@ img {
     font-size: 30px;
     font-family: "Faustina", serif;
 }
+
+.startQUIZ1 {
+    width: 15%;
+    height: %;
+    position: absolute;
+    left: 42px;
+    top: 524px;
+    font-size: 30px;
+    font-family: "Faustina", serif;
+}
+
