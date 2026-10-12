@@ -9,7 +9,7 @@
     height: 50%;
     display: flex;
     justify-content: center;
-    margin: 55px auto;
+    margin: 0 auto;
 }
 
 .Jayce {
@@ -17,5 +17,17 @@
     height: 50%;
     display: flex;
     float: right;
-    margin
+    margin: 0 auto;
+}
+
+.Eiira {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    float: right;
+    margin: 0 auto;
+}
+
+.images {
+    display: flex;
 }
