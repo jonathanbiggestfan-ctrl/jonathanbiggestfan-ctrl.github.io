@@ -31,32 +31,30 @@
 .images {
     display: flex;
     justify-content: flex;
+    margin-right: 3rem;
 }
 
 .h1 {
     display: flex;
 }
 
-.dropofgoldensun {
-    width: 20%;
-    height: 50%;
-    display: flex;
-    float: right;
-    margin: 0 auto;
+.membersNAME {
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 
-.milkJAYCE {
-    width: 20%;
-    height: 50%;
-    display: flex;
-    float: right;
-    margin: 0 auto;
+.imgJAYCE {
+    margin-right: 4rem;
 }
 
-.weryio{
-    width: 20%;
-    height: 50%;
-    display: flex;
-    float: right;
-    margin: 0 auto;
+.DropofgoldensunTXT {
+    margin-right: 19rem;
+}
+
+._milk__TXT {
+    margin-right: 18rem;
+}
+
+.weryioTXT {
+    margin-left: 4rem;
 }
