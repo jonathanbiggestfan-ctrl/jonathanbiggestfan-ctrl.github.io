@@ -5,10 +5,12 @@ body {
 .SpecTITLE {
   color: rgb(167, 78, 112);
   text-align: left;
-  font-size: 65px;
+  font-size: 70px;
   position: absolute;
   top: 5.5%;
   left: 5%;
+  letter-spacing: 1rem;
+  transform: scale(1.2, 2.3);
 }
 
 img {
@@ -43,61 +45,36 @@ img {
     transform: rotate(15deg);
 }
 
-.startQUIZ {
-    width: 10%;
-    height: %;
+#buttons {
     position: absolute;
-    left: 991px;
-    top: 217px;
+    top: 325px;
+    left: 47px;
 }
 
-.members {
-    width: 15%;
-    height: %;
-    position: absolute;
+.buttons {
     left: 42px;
-    top: 230px;
     font-size: 30px;
     font-family: "Faustina", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
-.empires {
-    width: 15%;
-    height: %;
-    position: absolute;
-    left: 42px;
-    top: 294px;
-    font-size: 30px;
+.buttons a {
     font-family: "Faustina", serif;
-}
-
-.communityLOCATIONS {
-    width: 15%;
-    height: %;
-    position: absolute;
-    left: 42px;
-    top: 358px;
     font-size: 30px;
-    font-family: "Faustina", serif;
+    text-decoration: none;
+    background-color: #D4818C;
+    color: rgb(90, 58, 63);
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin: 0.5rem auto;
+    width: 100%;
+    text-align: center;
 }
 
-.events {
-    width: 15%;
-    height: %;
-    position: absolute;
-    left: 42px;
-    top: 460px;
-    font-size: 30px;
-    font-family: "Faustina", serif;
+.buttons a:hover {
+    font-size: 35px;
+    transition: 0.3s;
 }
-
-.startQUIZ1 {
-    width: 15%;
-    height: %;
-    position: absolute;
-    left: 42px;
-    top: 524px;
-    font-size: 30px;
-    font-family: "Faustina", serif;
-}
-

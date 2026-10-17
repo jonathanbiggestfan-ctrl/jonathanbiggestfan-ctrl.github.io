@@ -3,3 +3,18 @@
     text-align: center;
     font-size: 28px;
 }
+
+.bookBG {
+    display: flex;
+    justify-content: flex;
+    border-radius: 8px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: rows;
+}
+
+#txt {
+    
+}

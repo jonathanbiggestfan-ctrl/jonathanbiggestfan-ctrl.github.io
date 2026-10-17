@@ -1,37 +1,46 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: #D4818C;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 14px;
+}
+
+.memberIMG {
+    max-width: 33%;
+    min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.memberIMG img {
+    width: 70%;
+    height: 120%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
 .memberTITLE{
-    color: rgb(34, 31, 32);
+    color: rgb(90, 58, 63);
     text-align: center;
     font-size: 65px;
 }
 
-.Reii {
-    width: 70%;
-    height: 120%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.Jayce {
-    width: 70%;
-    height: 120%;
-    display: flex;
-    float: right;
-    margin: 0 auto;
-}
-
-.Eiira {
-    width: 70%;
-    height: 120%;
-    display: flex;
-    float: right;
-    margin: 0 auto;
-}
-
 .images {
     display: flex;
-    justify-content: flex;
-    margin-right: 3rem;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .h1 {
@@ -47,14 +56,18 @@
     margin-right: 4rem;
 }
 
-.DropofgoldensunTXT {
-    margin-right: 19rem;
+.memberTXT {
+    font-family: "Faustina", serif;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #D4818C;
+    color: rgb(90, 58, 63);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
 }
 
-._milk__TXT {
-    margin-right: 18rem;
-}
-
-.weryioTXT {
-    margin-left: 4rem;
+.memberTXT:hover {
+    transform: scale(1.2);
+    transition: 1.3s;
 }
